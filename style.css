@@ -56,6 +56,7 @@ nav {
     display: flex;
     gap: 50px;
     text-align: left;
+    align-items: center;
 }
 .nav-list a{
     color: #000;
@@ -108,9 +109,12 @@ nav {
     cursor: pointer;
     width: 140px;
     height: 40px;
+    background: var(--hero-color);
+    color: #FFF;
     font-size: 12px;
     font-weight: 400;
     line-height: 15px;
+    text-transform: uppercase;
 }
 .banner-text button{
     position: absolute;
@@ -147,7 +151,7 @@ nav {
     line-height: 50.33px;
     letter-spacing: 0px;
 }
-.about-line {
+.line {
     width: 100px;
     border: 2px solid #E73587;
 }
@@ -163,6 +167,11 @@ nav {
 }
 
 /* service section  */
+.judul-service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .services h1{
     color: #020E35;
     font-size: 40px;
@@ -175,11 +184,84 @@ nav {
     margin-top: 50px;
     margin-left: 135px;
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 .card{
+    position: relative;
     text-align: center;
     width: 377px;
     height: 583px;
-    border: #000 1px solid;
+    z-index: 2;
+}
+.card h3{
+    position: absolute;
+    top: 306px;
+    left: 20px;
+    text-transform: capitalize;
+    width: 337px;
+    height: 25px;
+    color: #2B2B2B;
+    font-size: 20px;
+    font-weight: 400;
+}
+.card p{
+    position: absolute;
+    top: 353px;
+    left: 20px;
+    align-items: center;
+    width: 337px;
+    height: 100px;
+    margin-top: 22px;
+    color: #2B2B2B;
+    font-size: 20px;
+    font-weight: 400;
+}
+.card button{
+    position: absolute;
+    top: 512px;
+    left: 118px;
+}
+.card-app{
+    background: #FDF8E3;
+}
+.card-app img{
+    margin-top: 17px;
+}
+.card-webdev{
+    background: #F0F3FA;
+}
+.card-webdev img, .card-uiux img{
+    margin-top: 31px;
+}
+.card-uiux{
+    background: #FEEFF0;
+}
+.arrow{
+    background: var(--hero-color);
+    width: 76px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #ffff;
+    margin-left: 2px;
+    z-index: 2;
+}
+
+/* section work */
+.work{
+    background: #020E35;
+    margin-top: -290px;
+    width: 1440px;
+    height: 2392px
+}
+.work h1{
+    padding-top: 391px;
+    left: 641px;
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
 }
