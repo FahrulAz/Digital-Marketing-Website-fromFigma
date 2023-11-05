@@ -265,3 +265,23 @@ nav {
     font-size: 40px;
     font-weight: 400;
 }
+.work-1{
+    /* max-width: 50%; */
+    display: flex;
+}
+.col-5 img{
+    display: flex;
+    background-color: #F09532;
+    width: 587px;
+    height: 390px; 
+    margin: 20px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.caption {
+    margin-top: 60px;
+
+    /* margin-left: 50%; */
+    align-items: center;
+    color: #FFF;
+}
