@@ -153,7 +153,10 @@ nav {
 }
 .line {
     width: 100px;
+    background: #E73587;
     border: 2px solid #E73587;
+    margin: 0 auto;
+    z-index: -8;
 }
 .about p {
     color: #2B2B2B;
@@ -252,12 +255,14 @@ nav {
 
 /* section work */
 .work{
+    text-align: center;
     background: #020E35;
     margin-top: -290px;
     width: 1440px;
     height: 2392px
 }
 .work h1{
+    height: 50px;
     padding-top: 391px;
     left: 641px;
     color: #FFF;
@@ -265,3 +270,101 @@ nav {
     font-size: 40px;
     font-weight: 400;
 }
+
+.card-work{
+    margin: 70px 134px auto 135px;
+    display: flex;
+}
+.margin-work{
+    margin-top: 60px;
+}
+.bgimg-work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 587px;
+    height: 390px;
+    background: #F09532;
+}
+.text-work{
+    color: white;
+    margin-left: 20px;
+}
+.text-work h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 400;
+    width: 158px;
+    height: 38px;
+    margin-bottom: 16px;
+}
+.text-work h5{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    width: fit-content;
+    margin-bottom: 49px;
+}
+.text-work p{
+    width: 492px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.align-right{
+    display: flex;
+    justify-content: right;
+}
+
+.card-work-right{
+    margin: 70px 134px auto 135px;
+    display: flex;
+    justify-content: right;
+}
+.text-work-right{
+    text-align: right;
+    color: white;
+    margin-right: 20px;
+}
+.text-work-right h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 400;
+    /* width: 158px;
+    height: 38px; */
+    margin-bottom: 16px;
+}
+.text-work-right h5{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    /* width: fit-content; */
+    margin-bottom: 49px;
+}
+.text-work-right p{
+    width: 492px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.bgimg-work-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #8C32F0;
+    width: 587px;
+    height: 390px;
+}
+ .bg-pink{
+    background: #E73587;
+}
+.bg-blue{
+    background: #32D6F0;
+}
+.work button{
+    margin-top: 50px;
+}
+.margin-work-card-4{
+    margin-top: 50.4px;
+}
+
+/* section contact us */
