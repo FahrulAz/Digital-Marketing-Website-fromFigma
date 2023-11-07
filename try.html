@@ -4,13 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gambar dengan Keterangan</title>
-    <link rel="stylesheet" href="try.css">
+    <style>
+        /* CSS langsung di dalam tag <style> */
+        .image-with-caption {
+            display: flex;
+            align-items: center; /* Mengatur posisi vertikal gambar dan keterangan */
+        }
+
+        .image-with-caption img {
+            max-width: 50%; /* Mengatur lebar maksimum gambar */
+            height: auto; /* Menghindari distorsi gambar */
+            margin-left: 20px; /* Memberi jarak antara gambar dan keterangan */
+        }
+
+        .caption {
+            font-size: 16px;
+            /* Anda dapat menambahkan properti CSS lainnya sesuai kebutuhan Anda */
+        }
+    </style>
 </head>
 <body>
     <div class="image-with-caption">
-        <img src="img/img1-work.svg" alt="Gambar">
-        <div class="caption">
-            <h4>Brand Name</h4>Ini adalah keterangan gambar.</div>
+        <div class="caption">Ini adalah keterangan gambar.</div>
+        <img src="img/img2-work.svg" alt="Gambar">
     </div>
 </body>
 </html>

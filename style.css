@@ -270,18 +270,110 @@ nav {
     display: flex;
 }
 .col-5 img{
-    display: flex;
+    /* display: flex; */
     background-color: #F09532;
     width: 587px;
     height: 390px; 
     margin: 20px;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: 60px;
 }
-.caption {
+.work-1 .caption {
     margin-top: 60px;
-
-    /* margin-left: 50%; */
-    align-items: center;
+    /* align-items: center; */
     color: #FFF;
+}
+.work-1 .caption h4{
+    margin-left: 20px;
+    color: #FFF;
+    font-family: Basic;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.caption .name-brand{
+    color: #FFF;
+    margin-top: 16px;
+    margin-left: 20px;
+    font-family: Basic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+.work-1 .caption p{
+    padding: 20px;
+    width: 490px;
+    margin-top: 49px;
+    color: #FFF;
+    font-family: Basic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.work-2 img{
+    background-color: #8C32F0;
+    width: 587px;
+    height: 390px;
+    /* width: 468.214px;
+    height: 456px; */
+    display: flex;
+    margin: 20px;
+    margin-top: 70px;
+    
+    margin-left: 48%;
+    /* margin-top: 49px; */
+}
+.work-2 .caption{
+    /* display: flex; */
+    position: absolute;
+    margin-left: 13%;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+    
+} 
+.work-2 .caption h4{
+    margin-left: 290px;
+    color: #FFF;
+    font-family: Basic;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.work-2 .name-brand{
+    color: #FFF;
+    margin-top: 16px;
+    margin-left: 130px;
+    font-family: Basic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+.work-2 .caption p{
+    width: 450px;
+    text-align: right;
+    left: 100px;
+    /* right: 100%; */
+    margin-top: 49px;
+    color: #FFF;
+    font-family: Basic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.part-3 img{
+    background-color: #E73587;
+}
+.part-4 img{
+    background-color: #32D6F0;;
 }
