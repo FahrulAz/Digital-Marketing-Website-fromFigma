@@ -255,7 +255,7 @@ nav {
     background: #020E35;
     margin-top: -290px;
     width: 1440px;
-    height: 2392px
+    height: 2392px;
 }
 .work h1{
     padding-top: 391px;
@@ -265,27 +265,28 @@ nav {
     font-size: 40px;
     font-weight: 400;
 }
-.work-1{
-    /* max-width: 50%; */
+.line {
+    width: 100px;
+    background: #e73587;
+    border: 2px solid #e73587;
+    margin: 0 auto;
+    z-index: -8;
+  }
+.work-left{
     display: flex;
+    margin: 70px 134px auto 135px;
 }
-.col-5 img{
-    /* display: flex; */
+.work-left img{
+    display: flex;
     background-color: #F09532;
     width: 587px;
     height: 390px; 
-    margin: 20px;
-    margin-left: 100px;
-    margin-top: 60px;
 }
-.work-1 .caption {
-    margin-top: 60px;
-    /* align-items: center; */
+.work-left .caption {
     color: #FFF;
 }
-.work-1 .caption h4{
+.work-left .caption h4{
     margin-left: 20px;
-    color: #FFF;
     font-family: Basic;
     font-size: 30px;
     font-style: normal;
@@ -293,7 +294,6 @@ nav {
     line-height: normal;
 }
 .caption .name-brand{
-    color: #FFF;
     margin-top: 16px;
     margin-left: 20px;
     font-family: Basic;
@@ -303,11 +303,10 @@ nav {
     line-height: normal;
     letter-spacing: 3px;
 }
-.work-1 .caption p{
-    padding: 20px;
+.work-left .caption p{
+    margin-left: 20px;
     width: 490px;
     margin-top: 49px;
-    color: #FFF;
     font-family: Basic;
     font-size: 16px;
     font-style: normal;
@@ -315,39 +314,28 @@ nav {
     line-height: normal;
 }
 
-.work-2 img{
-    background-color: #8C32F0;
-    width: 587px;
-    height: 390px;
-    /* width: 468.214px;
-    height: 456px; */
+.work-right{
     display: flex;
-    margin: 20px;
-    margin-top: 70px;
-    
-    margin-left: 48%;
-    /* margin-top: 49px; */
+    margin: 70px 134px auto 135px;
 }
-.work-2 .caption{
-    /* display: flex; */
+.work-right .caption{
     position: absolute;
-    margin-left: 13%;
+    margin-left: 7%;
+    color: #FFF;
     align-items: left;
     text-align: left;
     justify-content: left;
     
 } 
-.work-2 .caption h4{
+.work-right .caption h4{
     margin-left: 290px;
-    color: #FFF;
     font-family: Basic;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-.work-2 .name-brand{
-    color: #FFF;
+.work-right .name-brand{
     margin-top: 16px;
     margin-left: 130px;
     font-family: Basic;
@@ -357,11 +345,10 @@ nav {
     line-height: normal;
     letter-spacing: 3px;
 }
-.work-2 .caption p{
+.work-right .caption p{
     width: 450px;
     text-align: right;
     left: 100px;
-    /* right: 100%; */
     margin-top: 49px;
     color: #FFF;
     font-family: Basic;
@@ -370,10 +357,30 @@ nav {
     font-weight: 400;
     line-height: normal;
 }
-
-.part-3 img{
+.bg-purple{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background: #8c32f0;
+    width: 587px;
+    height: 390px;
+    margin-left: 50%;
+}
+.bg-pink img{
     background-color: #E73587;
 }
-.part-4 img{
+.bg-blue img{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 587px;
+    height: 390px;
+    margin-left: 100%;
     background-color: #32D6F0;;
 }
+.work button {
+    width: 140px;
+    height: 40px;
+    margin-left: 641px;
+    margin-top: 35px;
+  }
