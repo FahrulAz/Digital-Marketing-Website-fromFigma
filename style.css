@@ -78,7 +78,7 @@ nav {
   color: #ffffff;
 }
 
-/* banner */
+/* section banner */
 .banner {
   width: 1440px;
   display: flex;
@@ -89,7 +89,6 @@ nav {
   margin-top: 134px;
   margin-left: 135px;
   margin-right: 34px;
-  /* z-index: 15; */
 }
 .banner-text h1 {
   color: #020e35;
@@ -122,7 +121,7 @@ nav {
   z-index: -1;
 }
 
-/* about */
+/* section about */
 .about {
   margin-top: 100px;
   position: relative;
@@ -376,7 +375,6 @@ nav {
 .contactus-left p {
   width: 584px;
   color: #020e35;
-  font-family: Basic;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
@@ -388,7 +386,6 @@ nav {
 .contactus-left h1 {
   width: 584px;
   color: #020e35;
-  font-family: Basic;
   font-size: 90px;
   font-style: normal;
   font-weight: 400;
@@ -398,7 +395,6 @@ nav {
 
 .contactus-left h1 span {
   color: #e73587;
-  font-family: Basic;
   font-size: 90px;
   font-style: normal;
   font-weight: 400;
@@ -416,7 +412,6 @@ nav {
 #contactus-form label {
   display: block;
   color: #2c3241;
-  font-family: Basic;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -443,7 +438,6 @@ nav {
   box-shadow: 0px 1px 0px 0px #ffffff1a inset;
   margin-top: 7px;
   color: #2c3241;
-  font-family: Basic;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -464,7 +458,6 @@ nav {
   box-shadow: 0px 1px 0px 0px #ffffff1a inset;
   margin-top: 7px;
   color: #2c3241;
-  font-family: Basic;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -480,7 +473,6 @@ nav {
   background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
   color: #fff;
   text-align: center;
-  font-family: Basic;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -500,7 +492,6 @@ nav {
   padding: 5px 0px;
   margin-left: 135px;
   color: #fff;
-  font-family: Basic;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
